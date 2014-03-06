@@ -70,10 +70,10 @@ Pair Programming Score | 10 points
 **Note:** This is our approximate grading distribution.  Point values may vary. 
 
 ###Submission Instructions
-One project should be submitted per team
+**One project should be submitted per team**
 
-1. Create a folder in an Odin account called lastname1_lastname2_proj4 where lastname1 and lastname2 are your actual last names.
-2. Copy all thoroughly commented Java source files in the folder created in step 1.
+1. Create a folder in an Odin account called **lastname1_lastname2_proj4** where lastname1 and lastname2 are your actual last names.
+2. Copy all **thoroughly commented** Java source files in the folder created in step 1.
 3. Place a working makefile in the folder created in step 1 that has three directives:
 	a. compile: compiles all of the source code
 	b. run: runs an example of your program
