@@ -63,183 +63,71 @@ readings and lectures, students will acquire or improve a number of skills that 
 LDC = Java Foundations: Introduction to Program Design & Data Structures  
 SV = Savitch <- figure out real name here
 
-Topic
-T
-W
-R
-T
-W
-R
-T
-W
-R
-T
-W
-R
-T
-W
-R
-T
-W
-R
-T
-W
-R
-T
-W
-R
-T
-W
-R
-T
-W
-R
-T
-W
-1/10/12
-1/11/12
-1/12/12
-1/17/12
-1/18/12
-1/19/12
-1/24/12
-1/25/12
-1/26/12
-1/31/12
-2/1/12
-2/2/12
-2/7/12
-2/8/12
-2/9/12
-2/14/12
-2/15/12
-2/16/12
-2/21/12
-2/22/12
-2/23/12
-2/28/12
-2/29/12
-3/1/12
-3/6/12
-3/7/12
-3/8/12
-3/13/12
-3/14/12
-3/15/12
-3/20/12
-3/21/12
-Reading
-Welcome to CSCI-1302, Plaue, and UNIX
-Introduction to Linux
-Linux & Java Review
-Java Review
-Class & Subclasses (revisited)
-File Input & Output
-Exceptions
-Using APIs and Generating JavaDoc
-Project Management (SVN)
-UML, Problem-Solving, Problem-Decomposition
-Formal Specification Techniques
-Arrays & Lists
-Inheritance
-Polymorphism
-Polymorphism / Interfaces
-Packages, ArrayLists, J-Unit
-General Catch-up Day!
-Recursion
-Recursion
-Debugging Strategies
-Catch-up Day
-Model-View Controller
-In-class discussion/review
-Midterm Exam
-Introduction to Human-Computer Interface Principles
-Swing & Event Listeners
-Swing & Layout Managers
-SV 1-6
-SV 10
-SV-9
-Java Website
-SV-8.2
-LDC-7
-LDC-8
-LDC-9
-LDC-9, SV-10
-LDC-10, SV-8
-LDC-11
-Mid-semester!
-LDC-6
-Spring Break
-Java Graphics
-Java Applets
-Notes
-LDC-F, SV-8
-LDC-G
-CSCI 1302
-R
-T
-W
-R
-T
-W
-R
-T
-W
-R
-T
-W
-R
-T
-W
-R
-3/22/12
-3/27/12
-3/28/12
-3/29/12
-4/3/12
-4/4/12
-4/5/12
-4/10/12
-4/11/12
-4/12/12
-4/17/12
-4/18/12
-4/19/12
-4/24/12
-4/25/12
-4/26/12
-Media
-TBA
-TBA
-Algorithm Analysis Overview
-Sorting out Sorting
-Sorting out Sorting
-Stacks
-Stacks/Linked-Lists
-Queues
-Software Design Patterns
-Software Design Patterns
-Project Discussions
-Open-Source Code
-Role & Use of Contracts
-In-Class Discussion and Review
-Final Class, Surveys, Etc
-Syllabus
-Withdrawal Deadline
-LDC-12
-LDC-13
-LDC-13
-LDC-14
-LDC-14
-LDC-15
-Last Day 
+Day | Date | Topic | Reading | Notes
+--- | ---- | ----- | ------- | -----
+T | 1/10/12 | Welcome to CSCI-1302, Plaue, and UNIX
+W | 1/11/12 | Introduction to Linux
+R | 1/12/12 | Linux & Java Review
+T | 1/17/12 | Java Review | SV 1-6
+W | 1/18/12 | Class & Subclasses (revisited)
+R | 1/19/12 | File Input & Output | SV 10
+T | 1/24/12 | Exceptions | SV-9
+W | 1/25/12 | Using APIs and Generating JavaDoc | Java Website
+R | 1/26/12 | Project Management (SVN)
+T | 1/31/12 | UML, Problem-Solving, Problem-Decomposition | SV-8.2
+W | 2/1/12 | Formal Specification Techniques
+R | 2/2/12 | Arrays & Lists | LDC-7
+T | 2/7/12 | Inheritance | LDC-8
+W | 2/8/12 | Polymorphism | LDC-9
+R | 2/9/12 | Polymorphism / Interfaces | LDC-9, SV-10
+T | 2/14/12 | Packages, ArrayLists, J-Unit | LDC-10, SV-8
+W | 2/15/12 | General Catch-up Day!
+R | 2/16/12 | Recursion | LDC-11
+T | 2/21/12 | Recursion
+W | 2/22/12 | Debugging Strategies
+R | 2/23/12 | Catch-up Day
+T | 2/28/12 | Model-View Controller
+W | 2/29/12 | In-class discussion/review
+R | 3/1/12 | Midterm Exam | Mid-semester!
+T | 3/6/12 | Introduction to Human-Computer Interface Principles | LDC-6
+W | 3/7/12 | Swing & Event Listeners
+R | 3/8/12 | Swing & Layout Managers
+T | 3/13/12
+W | 3/14/12 | Spring Break
+R | 3/15/12
+T | 3/20/12 | Java Graphics | LDC-F, SV-8
+W | 3/21/12 | Java Applets | LDC-G
+R | 3/22/12 | Media  | Withdrawal Deadline
+T | 3/27/12 | TBA
+W | 3/28/12 | TBA
+R | 3/29/12 | Algorithm Analysis Overview | LDC-12
+T | 4/3/12 | Sorting out Sorting | LDC-13
+W | 4/4/12 | Sorting out Sorting | LDC-13
+R | 4/5/12 | Stacks | LDC-14
+T | 4/10/12 | Stacks/Linked-Lists | LDC-14
+W | 4/11/12 | Queues | LDC-15
+R | 4/12/12 | Software Design Patterns
+T | 4/17/12 | Software Design Patterns
+W | 4/18/12 | Project Discussions
+R | 4/19/12 | Open-Source Code
+T | 4/24/12 | Role & Use of Contracts
+W | 4/25/12 | In-Class Discussion and Review
+R | 4/26/12 | Final Class, Surveys, Etc | Last Day
+
+
+
+
 Important Dates
+
 (you should probably put these in your calendars!)
-Mid-semester is: Thursday, March 1, 2012
-Reading Day is: Tuesday, May 1, 2012
-Final Exam Slot is: Thursday, May 3, 2012
-                   8 AM – 11:00 AM
-UGA has an official policy for dealing with exam conflicts. To find this information, in addition to the official
-schedule of final exams, visit:
+
+Mid-semester is:	Thursday, March 1, 2012
+
+Reading Day is:	Tuesday, May 1, 2012
+
+Final Exam Slot is:	Thursday, May 3, 2012
+8 AM – 11:00 AM
+
+UGA has an official policy for dealing with exam conflicts. To find this information, in addition to the official schedule of final exams, visit:
+
 http://www.reg.uga.edu/calendars/final-exam-dates/FinalExamDatesSpring2012
-4
