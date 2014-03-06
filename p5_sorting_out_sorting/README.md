@@ -75,8 +75,8 @@ Experimental Writeup | 25 points
 ###Delivery Instructions
 **Science!**
 
-1. Create a folder in an Nike account called lastname1 _proj5 where lastname1 is your lastname.
-2. Copy all thoroughly commented Java source files in the folder created in step 1.
+1. Create a folder in an Nike account called **lastname1 _proj5** where lastname1 is your lastname.
+2. Copy all **thoroughly commented** Java source files in the folder created in step 1.
 3. Place a working makefile in the folder created in step 1 that has three directives:  
 	a. compile: compiles all of the source code and creates Javadoc  
 	b. run: runs an example of your program  
