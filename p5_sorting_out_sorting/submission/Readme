@@ -1,0 +1,26 @@
+Vincent Lee
+
+Instructions on how to compile and run the program:
+
+To compile:
+make compile
+
+To run:
+make run
+
+Select a sorting algorithm or as many as you like
+Select size of the arrays.
+Select scenario.
+and if you choose select collate
+Hit run benchmark and review the results.
+
+Ctrl-W to Quit
+
+To clean(remove .class files):
+make clean
+
+To generate javadoc:
+make javadoc
+
+TO remove javadoc:
+make cleanjavadoc

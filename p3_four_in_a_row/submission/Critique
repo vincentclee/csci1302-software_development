@@ -1,0 +1,15 @@
+Vincent Lee
+
+Design Document Critique:
+
+My initial design document UML diagram was a little off in terms of method names and arguments they accept and did not accept. I also had to add a lot more methods than I anticipated because this was the first time I have worked in GUI, and underestimated the amount of setup work required. Because of this, I had to dig deep into the Java API for initial setup procedures of the board which extends JFrame. 
+
+One problem I had was I had a keyboard listener on my main gridboard, but the keys would not register. After a good time searching, I found that I had to set the focus on the actual panel to true. These little things make GUI really painful to work with, but at the same time changing, or adding code/components, and re-compiling/running makes it a rewarding experience. 
+
+Another problem I had was I cannot run delayed commands for animation outside of the main method. I had to spend a lot of time finding a workaround for my program, how I wanted the logic to work, but retaining my unique animation when the user drops the puck in the slot, it animates, or switches each slot on and off until it lands at it's resting place. 
+
+Another issue I encountered was when nobody won the game, my program could not continue, I had to write a dedicated method just to deal with this and reset the board if this rare but possible error were to occur. 
+
+Other than that, the actually program came close to the Initial design document. It still has the same 3 .java files: P3, GameBoard, and FourInARow. I believe this is the most efficient version of the program that I could create, and I have gone through and made sure all unnecessary code is removed, and optimized for program execution.
+
+Vincent Lee

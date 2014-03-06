@@ -1,0 +1,23 @@
+Vincent Lee
+
+How to compile:
+make compile
+
+How to run:
+make run
+
+How to clean:
+make clean
+
+How do compile, run, and clean all at once:
+sh makefile
+
+
+I have included different versions of sagar.
+possible run options:
+
+GreenScreen sagar.png india.png modified png auto
+GreenScreen sagarWhite.png india.png modified png auto
+GreenScreen sagar.jpg india.jpg modified jpg auto
+GreenScreen sagarWhite.jpg india.jpg modified jpg auto
+

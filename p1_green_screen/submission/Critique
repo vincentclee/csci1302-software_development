@@ -1,0 +1,13 @@
+Vincent Lee
+
+Everything that I layed out was there, but as stated in the instructions, we
+had to have the main color changer in one method, and the code that actually
+writes the final file in another method. This brings in some challenges,
+starting with you have to transfer the opened BufferedImage stream open and
+set it as the arguments of the writer method. I did not have any compromises
+with this project, I even was able to implement a auto method which picks the
+color of highest count and removes that particular color. The program has been
+tested with png and jpg, green and white images. 
+
+
+Vincent

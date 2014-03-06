@@ -1,0 +1,5 @@
+Please see attached. Submit your UML file to this assignment by the deadline indicated in the document.
+
+The methods available in HangmanAI include
+- default constructor whose responsibilities are to open up dictionary.data (which must be in the same directory as your hangman program)
+- char makeGuess (String, String) where the first parameter is the word with blanks (lower case letters, blanks are -). The second parameter is a string of guessed words. 

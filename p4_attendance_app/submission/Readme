@@ -1,0 +1,20 @@
+Vincent Lee
+Glenn Maust
+
+Instructions on how to compile and run the program:
+
+To compile:
+make compile
+
+To run:
+make run
+
+or
+
+java Attendance
+
+To clean:
+make clean
+
+To do all sequentially:
+sh makefile

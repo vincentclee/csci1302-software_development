@@ -1,0 +1,30 @@
+Vincent Lee 810335148
+
+Logan Henry 810261167
+
+
+Design Document Critique:
+
+
+Our initial design document UML diagram was a little off in terms
+of method names and arguments that they accept. For example, 
+all the players under the class Player could have access to the String 
+objects in Player if you make them protected instead of private. 
+This find was due to teamwork, in which one person remembered that they
+could do this from a pervious coding experience. 
+
+One difference was that all of the player's play method was renamed
+makeGuess, and they did not need to accept any arguments, as they could
+access the parent's protected String objects. Also on our Board 
+interface, we did not really need a isFull boolean variable as isWin 
+or isLoose could determine the winner, which is where the final decision
+is sent over to isGameOver which returns true if the game of hangman is
+truly over, win or lose. This projected some researching of how to 
+use super to get methods and variables to the child classes. 
+
+Other than that, the actually project comes close to the 
+design document UML diagram. We only wish that we could have found
+a way to use a single hangman board image for the actual game, instead of
+generating a new
+ image for every guess. It would have made the program
+a little more efficient.

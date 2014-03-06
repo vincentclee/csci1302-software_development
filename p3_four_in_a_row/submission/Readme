@@ -1,0 +1,25 @@
+Vincent Lee
+
+Instructions on how to compile and run the program:
+
+To compile:
+make compile
+
+To run:
+make run
+Arrow left and right keys to move piece.
+Arrow down to set piece in the board.
+Arrow up to undo last piece.
+
+Mouse click anywhere in the clear space above columm.
+Mouse click anywhere in grid to drop piece into the board.
+
+Ctrl-W to Quit
+Ctrl-Z to Undo
+Ctrl-R to Reset
+
+To clean(remove .class files):
+make clean
+
+To do all, sequentially:
+sh makefile

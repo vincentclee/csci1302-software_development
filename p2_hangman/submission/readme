@@ -1,0 +1,18 @@
+Vincent Lee
+Logan Henry
+Instructions on compile and run the program:
+
+To compile:
+make compile
+
+To run:(multiple options)
+java Hangman computer human true
+java Hangman computer naive true
+java Hangman computer random true
+java Hangman computer cutthroat true
+
+To clean: 
+make clean
+
+To do all, sequentially: 
+sh makefile
