@@ -7,22 +7,20 @@ Item | Description
 ---- | -----------
 Goals | 1) Implement insertionsort, bubblesort, happyhoursort, and quicksort <br> 2) Implement a project using recursion via QuickSort <br> 3) Gain experience developing testing programs <br> 4) Design, implement, and evaluate a study. <br> 5) Use Javadoc 
 Points | This project is worth 75 points 
-Due Date | This project is assigned on April 5, 2012 and is due on April 19, 2012 at 
-11:00 PM 
+Due Date | This project is assigned on April 5, 2012 and is due on April 19, 2012 at 11:00 PM 
 Late Penalty | You may submit this assignment for up to three days past the due date, where each 24-­‐hour period counts for a 12% deduction off of the original value. 
 Collaboration Policy | For this assignment, you may not collaborate with any one other than the teaching assistants and instructors. You may post questions—not code—on Piazza.
 
 ###Project Details 
-Each team will implement and analyze the average (amortized) performance of four sorting algorithms: insertionsort, bubblesort, happyhoursort, and quicksort. We’ve studied insertionsort and quicksort in class and the algorithms may be found in the Gray text book.
+Each team will implement and analyze the average (amortized) performance of four sorting algorithms: **insertionsort, bubblesort, happyhoursort, and quicksort**. We’ve studied insertionsort and quicksort in class and the algorithms may be found in the Gray text book.
 
 What is happyhoursort? You might’ve noticed during the Sorting Out Sorting video there was a sorting algorithm called bubblesort that had really poor performance. Bubblesort works by repeatedly going through a list and comparing adjacent items and swapping them if they are in the wrong position. You’re done with the bubblesort if you pass through the list of elements and no swaps are needed. From Sorting Out Sorting, it was clear that smaller elements would “bubble” up the list, and larger elements would “bubble” down the list.
 
-Happyhoursort, or the cocktailsort, is a variation of bubblesort. It differs by how the algorithm goes through the list. In bubblesort, you repeatedly scan in one direction, while in happyhoursort, you first scan left-to-right, then right-to-left.
+**Happyhoursort**, or the cocktailsort, is a variation of bubblesort. It differs by how the algorithm goes through the list. In bubblesort, you repeatedly scan in one direction, while in happyhoursort, you first scan left-to-right, then right-to-left.
 
 To implement happyhoursort, you’ll need to use three components: a while loop that contains two for- loops in series. The first for loop will scan left-to-right, while the second for loop will scan right-to-left. The while loop’s conditional is on whether or not no-swaps have been made—remember, if you aren’t swapping any more items, your list is sorted! But, think carefully if the while conditional is the only time you’d want to “exit” the sorting process.
 
-
-Implementing Sorting.java
+###Implementing Sorting.java
 Your team, and by team I mean you, will implement a class called Sorting.java that contains the
 implementations of the three sort algorithms by creating four public static methods respectively named
 insertionSort, bubbleSort, happyHourSort, and quickSort. To simplify this
@@ -30,7 +28,7 @@ project, we’re going to constrain the algorithms to just sorting arrays of int
 Sorting is required to take an array of integers (the primitive data type int) as a parameter and sort the array
 in ascending order. Each of these methods will then return a sorted array of the primitive data type int.
 
-Implementing SortExperiment.java
+###Implementing SortExperiment.java
 You will also implement a driver class called SortExperiment that contains a main method. You’ll
 use this class to conduct some experiments comparing the three sorting algorithms.
 
