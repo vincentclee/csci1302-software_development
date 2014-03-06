@@ -44,70 +44,41 @@ Your program must be written using Java and Swing to provide a user-friendly app
 	c. Once all files are specified, you will call the helper code to generate updated CSV files d.   You should show some sort of indication that each file is being processed
 5. You need a GUI mechanism to “visualize” attendance in some way. Perhaps a chart. Perhaps color coding. Simply keeping a raw percentage is not sufficient.
 
+The `Helper.class` contains code that will do the nitty-­‐gritty of updating the attendance and consists of the following methods:
 
+* Helper : default constructor
+* void parseFile(String original file, String attendance_file, int file_number) where
+	* original_file is a .csv file containing student names, 810 numbers, and existing attendance
+	* attendance_file is a .csv file containing one class’ attendance scans.
+	* file_number is an integer number that will be appended on the output file generated
 
-The Helper.class contains code that will do the nitty-­‐gritty of updating the attendance and consists of the following methods:
--­‐	Helper : default constructor
--­‐	void parseFile(String original file, String attendance_file, int file_number) where
-o	original_file is a .csv file containing student names, 810 numbers, and existing attendance
-o	attendance_file is a .csv file containing one class’ attendance scans.
-o	file_number is an integer number that will be appended on the output file
-generated
+parseFile, upon successfully completing, will generate a new file in the current working directory called original_file_file_number. Thus, a call to parseFile(“default.csv”, “01-02-2012.csv”, “2”) would generate a file called default.csv_2
 
-parseFile, upon successfully completing, will generate a new file in the current working directory called original_file_file_number. Thus, a call to parseFile(“default.csv”, “01-­‐02-­‐2012.csv”, “2”) would generate a file called default.csv_2
-Points
+###Points
 This project is worth 75 points towards your course grade. Grading of this programming project will use the following rubric:
 
-Proper documentation
-(pre & post statements, commenting conditionals, not excessive commenting) and
-JavaDoc.
-Design Requirements
-Your design requirements must contain not only a description (and/or UML diagram) of the relationship between the classes you are planning on writing, but you must also include some sample sketches of what you’re aiming to produce in your GUI.
-You should justify design decisions. Reflection Documents
-This document should outline what changes were made from the original document, as well as any technical challenges faced.
-GUI Design
-The GUI is well-­‐designed and properly implemented. All elements interact with the user or provide useful information.
-GUI Operation
-All operations work as planned. No unhandled exceptions are thrown.
-10 points
+Item | Points
+---- | ------
+Proper documentation <br> (pre & post statements, commenting conditionals, not excessive commenting) and JavaDoc. | 10 points
+Design Requirements <br> Your design requirements must contain not only a description (and/or UML diagram) of the relationship between the classes you are planning on writing, but you must also include some sample sketches of what you’re aiming to produce in your GUI. <br> You should justify design decisions. | 20 points
+Reflection Documents <br> This document should outline what changes were made from the original document, as well as any technical challenges faced. | 5 points
+GUI Design <br> The GUI is well-designed and properly implemented. All elements interact with the user or provide useful information. | 10 points
+GUI Operation <br> All operations work as planned. No unhandled exceptions are thrown. | 20 points
+Pair Programming Score | 10 points
 
+**Total:** 75 points  
+**Note:** This is our approximate grading distribution.  Point values may vary. 
 
-
-20 points
-
-
-
-
-
-5 points
-
-
-
-10 points
-
-
-
-20 points
-Pair Programming Score 	10 points
-
-Total: 75 points
-Note: This is our approximate grading distribution.  Point values may vary. 
-
-
-
-Submission Instructions
-
-
+###Submission Instructions
 One project should be submitted per team
-1.  Create a folder in an Odin account called lastname1_lastname2_proj4 where lastname1 and lastname2 are your actual last names.
-2.  Copy all thoroughly commented Java source files in the folder created in step 1.
-3.  Place a working makefile in the folder created in step 1 that has three directives:
-a.	compile:  compiles all of the source code b.	run:  runs an example of your program
-c.	clean:   removes all class files
+
+1. Create a folder in an Odin account called lastname1_lastname2_proj4 where lastname1 and lastname2 are your actual last names.
+2. Copy all thoroughly commented Java source files in the folder created in step 1.
+3. Place a working makefile in the folder created in step 1 that has three directives:
+	a. compile: compiles all of the source code
+	b. run: runs an example of your program
+	c. clean: removes all class files
 4. Add a readme file to the folder created in step 1 which has your name and clear instructions on how to compile and run your team’s program.
-5.  Remove all class files before submitting.
-6.  Navigate to the parent directory of the folder created in step 1 on Odin, and issue the command
-below.
-submit	lastname_proj4	cs1302a
-7. If the submission was successful, then a file that begins with rec will be created in the
-submitted folder.
+5. Remove all class files before submitting.
+6. Navigate to the parent directory of the folder created in step 1 on Odin, and issue the command below.`submit	lastname_proj4	cs1302a`
+7. If the submission was successful, then a file that begins with rec will be created in the submitted folder.
