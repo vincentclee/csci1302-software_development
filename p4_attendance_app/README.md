@@ -18,41 +18,31 @@ interpreting attendance data obtained from the Opticon 2001 scanners that are us
 `6275418101234550,Code-128,10:50:39 AM, 2/14/12`
 
 Your job is going to be to create an easy way for any user to update the attendance records for their class, as well as explore attendance trends. The good news is, I’ll provide you a compiled class that actually will update a given CSV file based upon the input that you give! 
- 
- 
+
 ###Classes 
-You must design and implement all of the following classes named as they are stated below.   You may 
-choose to add more classes if necessary. 
-1.    Attendance – A class that contains the main method to run an instance of the program. 
-2.    Visualizer – A class that contains the way you will visually represent attendance 
- 
- 
-Input and Output requirements 
- 
-Your program must be written using Java and Swing to provide a user-­‐friendly application.  Here are the 
-exact specifications: 
+You must design and implement all of the following classes named as they are stated below.   You may choose to add more classes if necessary. 
 
+1. Attendance – A class that contains the main method to run an instance of the program. 
+2. Visualizer – A class that contains the way you will visually represent attendance 
 
+###Input and Output requirements 
+Your program must be written using Java and Swing to provide a user-friendly application.  Here are the exact specifications: 
 
-
-
-
-
-
-
-1)   Your program must contain a menu with at least the following options:
-a.   Quit – exit the application
-b.   Settings – contains “set current class” functionality. c.	Help –
-i.   About -­‐   displays an alert box with information about the project ii.   Quick tips – displays a brief (100-­‐200 word) help documentation
-2)   Your program should maintain a file called saved.prefs in the current working directory
-3)   On initially running the program, you must allow the user to specify the initial class roster (in this example, it’s CSCI_1000.csv).
-a.   Once this is set, you should record this file path in saved.prefs so any subsequent launches of the program automatically is associated with this class as well as the latest up_to_date attendance records for that course.
-b.   If the current class is ever changed, this should be updated in saved.prefs.
-4)   You need a GUI mechanism to prompt the user to enter attendance scan files
-a.   A user can enter at least one (and possibly more) files.
-b.   You must use the Java Queue interface to establish a way to process each file in the order it was specified.
-c.	Once all files are specified, you will call the helper code to generate updated CSV files d.   You should show some sort of indication that each file is being processed
-5)   You need a GUI mechanism to “visualize” attendance in some way. Perhaps a chart. Perhaps color coding. Simply keeping a raw percentage is not sufficient.
+1. Your program must contain a menu with at least the following options:  
+	a. Quit – exit the application  
+	b. Settings – contains “set current class” functionality.  
+	c.	Help –  
+		i. About - displays an alert box with information about the project  
+		ii. Quick tips - displays a brief (100-200 word) help documentation
+2. Your program should maintain a file called saved.prefs in the current working directory
+3. On initially running the program, you must allow the user to specify the initial class roster (in this example, it’s CSCI_1000.csv).  
+	a. Once this is set, you should record this file path in saved.prefs so any subsequent launches of the program automatically is associated with this class as well as the latest up_to_date attendance records for that course.  
+	b. If the current class is ever changed, this should be updated in saved.prefs.
+4. You need a GUI mechanism to prompt the user to enter attendance scan files  
+	a. A user can enter at least one (and possibly more) files.  
+	b. You must use the Java Queue interface to establish a way to process each file in the order it was specified.
+	c. Once all files are specified, you will call the helper code to generate updated CSV files d.   You should show some sort of indication that each file is being processed
+5. You need a GUI mechanism to “visualize” attendance in some way. Perhaps a chart. Perhaps color coding. Simply keeping a raw percentage is not sufficient.
 
 
 
