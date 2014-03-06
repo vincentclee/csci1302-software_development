@@ -88,16 +88,14 @@ W | 2/22/12 | Debugging Strategies
 R | 2/23/12 | Catch-up Day
 T | 2/28/12 | Model-View Controller
 W | 2/29/12 | In-class discussion/review
-R | 3/1/12 | Midterm Exam | Mid-semester!
+R | 3/1/12 | Midterm Exam | | Mid-semester!
 T | 3/6/12 | Introduction to Human-Computer Interface Principles | LDC-6
 W | 3/7/12 | Swing & Event Listeners
 R | 3/8/12 | Swing & Layout Managers
-T | 3/13/12
-W | 3/14/12 | Spring Break
-R | 3/15/12
+T <br> W <br> R | 3/13/12 <br> 3/14/12 <br> 3/15/12 | Spring Break
 T | 3/20/12 | Java Graphics | LDC-F, SV-8
 W | 3/21/12 | Java Applets | LDC-G
-R | 3/22/12 | Media  | Withdrawal Deadline
+R | 3/22/12 | Media  | | Withdrawal Deadline
 T | 3/27/12 | TBA
 W | 3/28/12 | TBA
 R | 3/29/12 | Algorithm Analysis Overview | LDC-12
@@ -112,21 +110,16 @@ W | 4/18/12 | Project Discussions
 R | 4/19/12 | Open-Source Code
 T | 4/24/12 | Role & Use of Contracts
 W | 4/25/12 | In-Class Discussion and Review
-R | 4/26/12 | Final Class, Surveys, Etc | Last Day
+R | 4/26/12 | Final Class, Surveys, Etc | | Last Day
 
-
-
-
-Important Dates
-
+###Important Dates
 (you should probably put these in your calendars!)
 
-Mid-semester is:	Thursday, March 1, 2012
-
-Reading Day is:	Tuesday, May 1, 2012
-
-Final Exam Slot is:	Thursday, May 3, 2012
-8 AM – 11:00 AM
+Item | Date
+---- | ----
+Mid-semester | Thursday, March 1, 2012
+Reading Day | Tuesday, May 1, 2012
+Final Exam Slot | Thursday, May 3, 2012 8 AM – 11:00 AM
 
 UGA has an official policy for dealing with exam conflicts. To find this information, in addition to the official schedule of final exams, visit:
 
